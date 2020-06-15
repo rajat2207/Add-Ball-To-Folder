@@ -1,0 +1,33 @@
+#button-container{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+#button{
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+}
+
+#basket{
+    margin: auto;
+    margin-top: 80px;
+    width: 99%;
+    background-color: rgb(161, 231, 212);
+    min-height: 100px;
+    height: auto;
+    border: 8px double rgb(163, 160, 160);
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+}
+
+.balls{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(109, 101, 101);
+    border-radius: 50px;
+}
